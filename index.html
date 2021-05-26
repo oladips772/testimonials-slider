@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>image slider</title>
+</head>
+<body>
+    <div class="hero">
+        <h1>Testimonials</h1>
+
+<div class="container">
+    <div class="indicator">
+        <span class="btn active"></span>
+        <span class="btn"></span>
+        <span class="btn"></span>
+        <span class="btn"></span>
+    </div>
+    <div class="testimonial">
+        <div class="slider" id="slider">
+            <div class="slide-col">
+                <div class="user-text">
+                <p> Rgbm jghgvytvu hgvyurhjcxgvu6 b vfgxsyfrcuf yjvf  jbuyfvrvfcuysxgv jgvtrvfyfrsxg jhguktuk
+                    xsgvuytvuvgfxs klbhgrvyukrsgv b vkuytiuuxsauv6r b yufvvxsauftv8rfc  b,.blilasgiuvtc b ktvasvua  l ig ktvasvua
+                    kbiuacgvcu  ag
+                </p>
+                <h3>John Wick</h3>
+                <p>Russian Hitman</p>
+                </div>
+                <div class="user-img">
+                 <img src="john-wick-suit-1.jpg" alt="">
+                </div>
+            </div>
+            <div class="slide-col">
+                <div class="user-text">
+                <p> Rgbm jghgvytvu hgvyurhjcxgvu6 b vfgxsyfrcuf yjvf  jbuyfvrvfcuysxgv jgvtrvfyfrsxg jhguktuk
+                    xsgvuytvuvgfxs klbhgrvyukrsgv b vkuytiuuxsauv6r b yufvvxsauftv8rfc  b,.blilasgiuvtc b ktvasvua  l ig ktvasvua
+                    kbiuacgvcu  ag
+                </p>
+                <h3>Malli M Malii</h3>
+                <p> WhatsApp inc</p>
+                </div>
+                <div class="user-img">
+                 <img src="2 shirt 2.jpg" alt="">
+                </div>
+            </div>
+            <div class="slide-col">
+                <div class="user-text">
+                <p> Rgbm jghgvytvu hgvyurhjcxgvu6 b vfgxsyfrcuf yjvf  jbuyfvrvfcuysxgv jgvtrvfyfrsxg jhguktuk
+                    xsgvuytvuvgfxs klbhgrvyukrsgv b vkuytiuuxsauv6r b yufvvxsauftv8rfc  b,.blilasgiuvtc b ktvasvua  l ig ktvasvua
+                    kbiuacgvcu  ag
+                </p>
+                <h3>Pablo Rodriguez</h3>
+                <p>Intel It</p>
+                </div>
+                <div class="user-img">
+                 <img src="jacket 1.jpg" alt="">
+                </div>
+            </div>
+            <div class="slide-col">
+                <div class="user-text">
+                <p> Rgbm jghgvytvu hgvyurhjcxgvu6 b vfgxsyfrcuf yjvf  jbuyfvrvfcuysxgv jgvtrvfyfrsxg jhguktuk
+                    xsgvuytvuvgfxs klbhgrvyukrsgv b vkuytiuuxsauv6r b yufvvxsauftv8rfc  b,.blilasgiuvtc b ktvasvua  l ig ktvasvua
+                    kbiuacgvcu  ag
+                </p>
+                <h3>Leo Messi</h3>
+                <p>FC Barcelona</p>
+                </div>
+                <div class="user-img">
+                 <img src="jacket 2.jpg" alt="">
+                </div>
+            </div>
+        </div>
+       </div>
+      </div>
+    </div>
+ 
+<script>
+
+var btn = document.getElementsByClassName("btn");
+var slider = document.getElementById("slider");
+
+btn[0].onclick = function(){
+    slider.style.transform = "translateX(0px)"; 
+for(i=0;i<4;i++){
+  btn[i].classList.remove("active");
+      }
+      this.classList.add("active");
+}
+
+btn[1].onclick = function(){
+    slider.style.transform = "translateX(-800px)";
+    for(i=0;i<4;i++){
+  btn[i].classList.remove("active");
+      }
+      this.classList.add("active");
+}
+
+
+btn[2].onclick = function(){
+    slider.style.transform = "translateX(-1600px)";
+    for(i=0;i<4;i++){
+  btn[i].classList.remove("active");
+      }
+      this.classList.add("active");
+}
+
+
+btn[3].onclick = function(){
+    slider.style.transform = "translateX(-2400px)";
+    for(i=0;i<4;i++){
+  btn[i].classList.remove("active");
+      }
+      this.classList.add("active");
+}
+
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
